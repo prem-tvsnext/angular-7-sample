@@ -13,5 +13,6 @@ import { AppComponent } from './app.component';
 export class AppModule implements DoBootstrap {
   ngDoBootstrap(appRef: ApplicationRef) {
     appRef.bootstrap(AppComponent); // Or some other component
+    console.log('dsfds');
   }
 }
